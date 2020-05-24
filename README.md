@@ -17,10 +17,6 @@ Add Live2D widget to web page. Compatible with PJAX.
 
 ## 示例 Demo
 
-在[米米的博客](https://zhangshuqiao.org)的左下角可查看效果。（注：以下人物模型仅供展示之用，本仓库并不包含任何模型。）
-
-<img src="assets/screenshot-1.png"><img src="assets/screenshot-2.png" width="300"><img src="assets/screenshot-3.png" width="300">
-
 你也可以在允许的范围内进行二次开发，这里有一些示例
 
 - [demo.html](https://mi.js.org/live2d-widget/demo/demo.html) ，展现基础效果
@@ -39,7 +35,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
 
 将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/shikangsheng/live2d-widget@latest/autoload.js"></script>
 ```
 如果网站启用了 PJAX，由于看板娘不必每页刷新，因此要注意将相关脚本放到 PJAX 刷新区域之外。
 
